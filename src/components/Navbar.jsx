@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import{menu, close} from '../assets';
+import{menu, close} from '../../public';
 import { FaMapMarked } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
