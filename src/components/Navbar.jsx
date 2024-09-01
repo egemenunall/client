@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import{menu, close} from '../../public/index';
+
 import { FaMapMarked } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
@@ -41,7 +41,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='md:hidden' onClick={handleClick}>
-                    <img src={!toggle?menu:close} alt="menu" className='w-[28px] h-[28px] object-contain mr-10' />
+                    <img src={!toggle?"/menu.svg":"/close.svg"} alt="menu" className='w-[28px] h-[28px] object-contain mr-10' />
                 </div>
 
 
