@@ -9,13 +9,14 @@ import {BrowserRouter} from 'react-router-dom'
 const basename = '/client/';
 
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter basename={basename}>
       <App />
     </BrowserRouter>
+    
   </React.StrictMode>
-);
+)
+
+
+
