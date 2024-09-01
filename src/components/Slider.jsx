@@ -5,7 +5,7 @@ const slides = [
   {
     title: "FOR ALL YOUR PLASMA CUTTER NEEDS",
     description: "Custom Designed Machine Bed. Working Width/Length Range are Subject to Change upon request. Standard Bed Sizes are BPL-C 1530, 2060, 3060 Types.",
-    image: "/slider-img.png"
+    image:"/slider-img.png"
   },
   {
     title: "ADVANCED LASER CUTTING SOLUTIONS",
