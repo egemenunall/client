@@ -6,7 +6,7 @@ import ProductAllPage from "./pages/ProductAllPage";
 
 
 export default function App() {
-  let {loading, data, error} =useFetch('http://localhost:1337/api/products?populate=*')
+  let {loading, data, error} =useFetch('https://my-project-app-hndk.onrender.com/api/products?populate=*')
   if(loading) return <p>Loading...</p>
   if(error) return <p>Error!</p>
 

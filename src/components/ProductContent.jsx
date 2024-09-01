@@ -29,7 +29,7 @@ const ProductContent = ({products}) => {
             md:gap-x-8 sm:gap-y-8 ss:gap-y-8 px-4 sm:pt-20 md:mt-0 ss:pt-20 text-black'>
 
                 <div className='col-span-2 '>
-                    <img className='h-56 w-full object-cover' src={`http://localhost:1337${product.attributes.productIMG.data.attributes.url}`} />
+                    <img className='h-56 w-full object-cover' src={`https://my-project-app-hndk.onrender.com${product.attributes.productimg.data.attributes.url}`} />
                     <h1 className='font-bold text-2xl my-1 pt-5'>{product.attributes.productName}</h1>
                     <p>{product.attributes.productLongDesc}</p>
                     

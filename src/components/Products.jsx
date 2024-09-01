@@ -22,7 +22,7 @@ const Products = ({ products}) => {
               <div className='bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg'>
                 <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
                   <img 
-                    src={`http://localhost:1337${product.attributes.productIMG.data.attributes.url}`}
+                    src={`https://my-project-app-hndk.onrender.com${product.attributes.productimg.data.attributes.url}`}
                     alt={product.attributes.productName}
                     className="w-full h-full object-cover"
                     loading="lazy"
