@@ -8,7 +8,7 @@ const About = () => {
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
           <div className="aspect-w-16 aspect-h-9">
             <img
-              src="/public/cnc-1.jpg" // Replace with your image or video source
+              src="/cnc-1.jpg" // Replace with your image or video source
               alt="Lazer Optik"
               className="rounded-lg shadow-lg object-cover w-full h-full"
             />
