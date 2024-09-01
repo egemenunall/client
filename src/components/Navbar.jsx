@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-
 import { FaMapMarked } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
