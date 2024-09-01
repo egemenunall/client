@@ -10,10 +10,12 @@ export default function App() {
   if(loading) return <p>Loading...</p>
   if(error) return <p>Error!</p>
 
+  const basename = '/client/';
+
 
   return (
     <div>
-      <Routes>
+      <Routes basename={basename}>
         <Route path='/' element={<Homepage products={data?data:""} />}></Route>
         <Route path='/product/:id' element={<ProductContentPage  products={data?data:""}/>}></Route>
         <Route path="/about" element={<AboutPage/>}></Route>
