@@ -16,10 +16,10 @@ export default function App() {
   return (
     <div>
       <Routes>
-        <Route path='/client/' element={<Homepage products={data?data:""} />}></Route>
-        <Route path='/client/product/:id' element={<ProductContentPage  products={data?data:""}/>}></Route>
-        <Route path="/client/about" element={<AboutPage/>}></Route>
-        <Route path="/client/products" element={<ProductAllPage products={data?data:""} />}></Route>
+        <Route path='/' element={<Homepage products={data?data:""} />}></Route>
+        <Route path='/product/:id' element={<ProductContentPage  products={data?data:""}/>}></Route>
+        <Route path="/about" element={<AboutPage/>}></Route>
+        <Route path="/products" element={<ProductAllPage products={data?data:""} />}></Route>
       </Routes>
     </div>
   
